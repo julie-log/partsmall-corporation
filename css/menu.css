@@ -1,0 +1,54 @@
+/* menu css */
+.nav {
+  margin: 0 auto;
+}
+.nav > ul.depth1 {
+  position: relative; /* 1단계 메뉴 ul(목록 전체) 위치 기준 */
+}
+.nav > ul.depth1 > li {
+  float: left;
+  width: 150px;
+  line-height: 30px; /* 2단계 메뉴는 이 다음에 자동 위치함 */
+  text-align: center;
+}
+
+/* 2단계 메뉴 */
+.nav div.depth2 {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+.nav div.depth2.active {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.nav .depth2 ul {
+  transition: 0.3s ease-out;
+  padding: 0;
+  margin: 0;
+}
+
+.nav .depth2 .nav-item-child {
+  line-height: 1;
+  padding: 10px;
+}
+.nav .depth2 .nav-item-child:hover {
+  color: var(--light-blue);
+}
+
+.header .depth2 .nav-item-child {
+  padding-right: 10px;
+}
+
+.header .depth2 .nav-item-child:last-child {
+  padding-right: 10px !important;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .nav > ul.depth1 > li {
+    width: 100%;
+  }
+}

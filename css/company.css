@@ -1,0 +1,14 @@
+.company.service {
+  padding: 10px;
+}
+
+.company.service .service-info p {
+  font-size: 13px;
+}
+
+.company-list li {
+  font-size: 15px;
+  font-weight: 400;
+  color: #a6a7aa;
+  margin-bottom: 15px;
+}

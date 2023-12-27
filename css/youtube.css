@@ -1,0 +1,10 @@
+.tag-box {
+  background-color: #fafafa;
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px;
+}
+.tag-list {
+  display: flex;
+  gap: 10px;
+}

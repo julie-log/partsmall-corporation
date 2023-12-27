@@ -1,0 +1,19 @@
+.work {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.work img {
+  margin: 30px;
+  border-radius: 8px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.work p {
+  margin: 10px 0;
+  font-weight: 600;
+}
