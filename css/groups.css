@@ -19,6 +19,10 @@ html {
   border-radius: 10px;
 }
 
+.groups-list {
+  margin-bottom: 150px;
+}
+
 .groups-list > div {
   margin-top: 150px;
 }
