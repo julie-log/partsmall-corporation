@@ -51,4 +51,22 @@
   .nav > ul.depth1 > li {
     width: 100%;
   }
+  .nav div.depth2 {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  .header .depth2 .nav-item-child:last-child {
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+  .header .nav-item-child {
+    color: #515769;
+  }
+  .mo-none {
+    display: none !important;
+  }
+  .header .navbar-nav {
+    margin: 0 0 20px 0;
+  }
 }
