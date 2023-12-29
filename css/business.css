@@ -1,3 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+.business-list {
+  margin-top: 50px;
+}
+
+.business-box {
+  margin-bottom: 150px;
+}
+
+.business-box:last-child {
+  margin-bottom: 50px;
+}
+
 .swiper {
   width: 100%;
   height: 800px;

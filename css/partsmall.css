@@ -83,3 +83,8 @@
   color: #cbd3e1;
   font-size: 13px;
 }
+
+/* content */
+.sub-content {
+  max-width: 1700px;
+}

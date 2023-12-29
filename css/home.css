@@ -187,8 +187,6 @@ a:nth-child(2) {
 }
 .esg-box {
   position: relative;
-  bottom: 10px;
-  right: 10px;
   display: flex;
   align-items: center;
 }
@@ -231,7 +229,7 @@ a:nth-child(2) {
   }
   .arrow {
     margin: 0;
-    right: -13vw;
+    right: 7vw;
     top: -6px;
   }
 }
