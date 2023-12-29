@@ -1023,10 +1023,13 @@ fieldset[disabled] .btn-theme {
 
 .carousel-centered {
   position: absolute;
-  top: 50%;
+  bottom: 5%;
+  right: 5%;
+  text-align: right;
+  /* top: 50%;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0); */
 }
 
 .carousel-title {
