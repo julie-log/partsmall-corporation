@@ -4,9 +4,36 @@ html {
 .business-list {
   margin-top: 50px;
 }
-
-.business-box {
+.business-box{
   margin-bottom: 150px;
+}
+.business-box > div.box-img{
+  height: 50vw;
+  border-radius: 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.business-box:nth-child(1) .box-img{
+  background-image: url("../img/business/business_import.jpg");
+}
+
+.business-box:nth-child(2) .box-img{
+  background-image: url("../img/business/business_export.jpg");
+}
+
+.business-box:nth-child(3) .box-img{
+  background-image: url("../img/business/business_platform.jpg");
+}
+
+.business-box:nth-child(4) .box-img{
+  background-image: url("../img/business/business_electric.jpg");
+}
+.business-box > div.box-text{
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
 }
 
 .business-box:last-child {

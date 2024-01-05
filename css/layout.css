@@ -696,9 +696,9 @@ fieldset[disabled] .btn-theme {
   display: block;
 }
 
-.header .nav-item:last-child .nav-item-child {
+/* .header .nav-item:last-child .nav-item-child {
   padding-right: 0;
-}
+} */
 
 .header .nav-item .nav-item-hover.active:after {
   opacity: 1;

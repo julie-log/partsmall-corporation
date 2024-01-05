@@ -1,10 +1,12 @@
 $(function () {
   $(".depth1 > li").hover(
     function () {
-      $(this).find(".depth2").addClass("active");
+      // $(this).find(".depth2").addClass("active");
+      $(".depth2").addClass("active");
     },
     function () {
-      $(this).find(".depth2").removeClass("active");
+      // $(this).find(".depth2").removeClass("active");
+      $(".depth2").removeClass("active");
     }
   );
 });
