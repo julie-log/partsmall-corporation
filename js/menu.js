@@ -1,4 +1,5 @@
 const fullMenu = document.getElementById("full-menu");
+const langMenu = document.getElementById("lang-menu");
 $(function () {
   $(".depth1 > li").hover(
     function () {
@@ -14,6 +15,6 @@ $(function () {
   );
 });
 
-fullMenu.addEventListener("click",function(){
+fullMenu.addEventListener("click", function () {
   $(".depth2").toggleClass("active");
-})
+});

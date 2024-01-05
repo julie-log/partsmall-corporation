@@ -20,7 +20,6 @@
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-out;
-  
 }
 .nav div.depth2.active {
   visibility: visible;
@@ -50,8 +49,47 @@
   margin-bottom: 30px;
   font-size: 15px;
 }
+.side-menu img {
+  width: 17px;
+  filter: brightness(0) invert(1);
+}
+.page-on-scroll .side-menu img {
+  filter: initial;
+}
+.side-menu:hover img {
+  filter: initial;
+}
+.navbar-fixed-top:hover .side-menu img {
+  filter: initial;
+}
 
+.header .side-menu.active img {
+  filter: initial;
+}
 
+.nav > ul.side-menu > li {
+  width: 70px;
+  height: 100%;
+}
+.nav > ul.side-menu select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 6px 2px;
+  margin: 30px 0px;
+  background-color: transparent;
+  color: #fff;
+}
+.header .depth1.active select {
+  color: initial;
+}
+
+.header .side-menu.active select {
+  color: initial;
+}
+.page-on-scroll select {
+  color: initial !important;
+}
 @media (max-width: 768px) {
   .nav > ul.depth1 > li {
     width: 100%;

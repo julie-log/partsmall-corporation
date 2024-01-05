@@ -99,27 +99,10 @@
   font-size: 14px;
   font-weight: 400;
 }
-.footer .footer-list-item:first-child{
+.footer .footer-list-item:first-child {
   margin-bottom: 20px;
 }
-.footer .footer-list-item:first-child a{
+.footer .footer-list-item:first-child a {
   font-size: 16px;
   font-weight: 500;
-
-}
-.side-menu img{
-  width: 17px;
-  filter: brightness(0) invert(1);
-}
-.page-on-scroll .side-menu img{
-  filter: initial;
-}
-.side-menu:hover img{
-  filter: initial;
-}
-.navbar-fixed-top:hover .side-menu img{
-  filter: initial;
-}
-.header .side-menu.active img{
-  filter: initial;
 }
