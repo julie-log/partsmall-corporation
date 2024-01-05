@@ -2,7 +2,7 @@
 .nav {
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 .nav > ul.depth1 {
   position: relative; /* 1단계 메뉴 ul(목록 전체) 위치 기준 */
@@ -20,6 +20,7 @@
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-out;
+  
 }
 .nav div.depth2.active {
   visibility: visible;
@@ -47,6 +48,7 @@
 .header .depth2 .nav-item-child:last-child {
   padding-right: 0;
   margin-bottom: 30px;
+  font-size: 15px;
 }
 
 
