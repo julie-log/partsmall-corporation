@@ -55,12 +55,16 @@
 }
 .page-on-scroll .side-menu img {
   filter: initial;
+  opacity: .7;
 }
 .side-menu:hover img {
+  opacity: .7;
   filter: initial;
 }
 .navbar-fixed-top:hover .side-menu img {
   filter: initial;
+  opacity: .7;
+
 }
 
 .header .side-menu.active img {
