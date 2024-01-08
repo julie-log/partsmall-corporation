@@ -9,3 +9,12 @@
 .ceo-card:hover {
   transform: scale(1.05);
 }
+.ceo-rights {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ceo-rights span {
+  margin-left: 5px;
+  font-size: 16px;
+}
