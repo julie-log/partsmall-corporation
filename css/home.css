@@ -3,6 +3,7 @@
   /* color: var(--main-theme-color); */
   color: #fff;
   font-size: 40px;
+  line-height: 1.5;
 }
 
 .carousel-title span.green {
@@ -18,7 +19,10 @@
 }
 
 .carousel-title span {
-  font-size: 80px;
+  font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
 }
 
 /* 사업분야 */
