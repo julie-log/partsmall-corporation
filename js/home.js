@@ -1,3 +1,3 @@
 function goEsg() {
-  location.href = "../esg.html";
+  location.href = "esg.html";
 }
