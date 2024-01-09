@@ -49,10 +49,10 @@
 /* header navbar */
 
 .navbar-fixed-top {
-  /*background: white;*/
+  background: white;
 }
 .navbar-fixed-top .nav-item-child {
-  color: white;
+  /* color: white; */
 }
 
 .navbar-fixed-top:hover {
@@ -64,7 +64,7 @@
 }
 
 .header .nav-item-child {
-  color: white;
+  color: #515769;
 }
 #video_area {
   padding: 0;
@@ -82,7 +82,6 @@
   margin-top: 20px;
 }
 .footer-info-list li {
-  color: #cbd3e1;
   font-size: 13px;
 }
 
@@ -90,12 +89,24 @@
 .sub-content {
   max-width: 1700px;
 }
+.footer {
+  background-image: none;
+  background-color: #ebebeb;
+  color: #515769;
+}
+
+.footer p {
+  color: #515769;
+  font-size: 13px;
+}
+.footer .text-right p {
+  margin-top: 10px;
+}
 
 .footer .footer-list-item {
   margin-bottom: 10px;
 }
 .footer .footer-list-link {
-  color: #cbd3e1;
   font-size: 14px;
   font-weight: 400;
 }
