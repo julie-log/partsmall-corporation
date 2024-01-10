@@ -2,7 +2,8 @@
   font-weight: 700;
   /* color: var(--main-theme-color); */
   color: #fff;
-  font-size: 40px;
+  font-size: 28px;
+  
   line-height: 1.5;
 }
 
@@ -19,7 +20,7 @@
 }
 
 .carousel-title span {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   color: #fff;
   display: block;
@@ -208,10 +209,18 @@ a:nth-child(2) {
   font-size: 32px;
   color: #fff;
 }
+.work {
+  overflow: hidden;
+    border-radius: 8px ;
+}
 .work img {
   border-radius: 8px;
+  transition: 0.2s;
+  
 }
-
+.work:hover img{
+  transform:scale(1.1);
+} 
 .work:hover .work-overlay:before {
   border-radius: 8px;
 }
