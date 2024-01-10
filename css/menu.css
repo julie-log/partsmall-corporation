@@ -115,7 +115,7 @@
   }
   .header .depth2 .nav-item-child:last-child {
     padding-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
   .header .nav-item-child {
     color: #515769;
@@ -124,6 +124,9 @@
     display: none !important;
   }
   .header .navbar-nav {
-    margin: 0 0 20px 0;
+    margin: 0;
+  }
+  .nav > ul.side-menu select{
+    margin: 0; 
   }
 }

@@ -8,7 +8,7 @@ html {
   margin-bottom: 150px;
 }
 .business-box > div.box-img{
-  height: 50vw;
+  height: 20vw;
   border-radius: 8px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,7 +35,9 @@ html {
   display: flex;
   justify-content: center;
 }
-
+.business-box > div.box-text img{
+  width: 100%;
+}
 .business-box:last-child {
   margin-bottom: 50px;
 }
@@ -87,4 +89,10 @@ html {
 .swiper-slide:nth-child(4) {
   background-image: url("../img/business/business_platform.jpg");
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .business-box > div.box-img {
+    height: 50vw;
+  }
 }

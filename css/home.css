@@ -223,6 +223,7 @@ a:nth-child(2) {
 } 
 .work:hover .work-overlay:before {
   border-radius: 8px;
+  background-color: initial;
 }
 
 @media (max-width: 768px) {
@@ -251,4 +252,26 @@ a:nth-child(2) {
     right: 7vw;
     top: -6px;
   }
+  .work {margin-bottom: 25px;}
+  .work .work-content{
+    opacity: 1;
+    padding: 35px 10px;
+    font-size: 12px;
+  }
+  .work .work-content h3{
+    font-size: 16px;
+  }
+  .work .work-content p{
+  font-size: 13px;
+}
+.main-esg{
+  height: 60vw;
+}
+.esg-box p{
+  right: 30px;
+  font-size: 14px;
+}
+.esg-box p:hover .arrow {
+display: none
+}
 }
