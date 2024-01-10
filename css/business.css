@@ -36,7 +36,7 @@ html {
   justify-content: center;
 }
 .business-box > div.box-text img{
-  width: 100%;
+  width: 50%;
 }
 .business-box:last-child {
   margin-bottom: 50px;
@@ -94,5 +94,8 @@ html {
 @media (max-width: 768px) {
   .business-box > div.box-img {
     height: 50vw;
+  }
+  .business-box > div.box-text img{
+    width: 100%;
   }
 }
