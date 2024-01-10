@@ -219,7 +219,10 @@ a:nth-child(2) {
   
 }
 .work:hover img{
-  transform:scale(1.1);
+  transform:scale(1.1); /*  default */
+  -webkit-transform:scale(1.1); /*  크롬 */
+  -moz-transform:scale(1.1);/* FireFox */
+  -o-transform:scale(1.1); /* Opera */
 } 
 .work:hover .work-overlay:before {
   border-radius: 8px;
