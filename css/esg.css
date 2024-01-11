@@ -5,6 +5,7 @@
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
+  align-items: center;
 }
 .box-img {
   background-size: cover;
@@ -34,7 +35,7 @@
   margin: 10px 0 0 0;
 }
 .work p {
-  font-size: 18px;
+  font-size: 24px;
   margin: 10px 0;
   font-weight: 600;
   color: #333;
@@ -49,11 +50,12 @@
   color: #fff;
   padding: 0;
   width: 100%;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .list li {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #333;
+  margin-bottom: 10px;
 }
