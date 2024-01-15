@@ -1,0 +1,166 @@
+.step-area {
+  display: flex;
+  align-items: center;
+}
+.step-box {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+}
+/* .step-box::after {
+  content: url("icon/arrow-right-solid.svg");
+} */
+.step-icon {
+  background-image: url("icon/arrow-right-solid.svg");
+  opacity: 0.4;
+  width: 15px;
+  height: 15px;
+}
+.step-img {
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 10px 20px;
+  box-sizing: border-box;
+  padding: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 182px;
+}
+.step-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+.step-last {
+  border: 2px solid #1f4e79;
+}
+.step-img img {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.step-list {
+  margin-top: 100px;
+}
+
+.step-list li {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.benefit-box img {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.benefit-box {
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 40px;
+  box-sizing: border-box;
+  padding: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.benefit-img {
+  display: flex;
+  justify-content: center;
+  background: #f2f2f2;
+  padding: 40px;
+  border-radius: 20px;
+}
+.benefit-box p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+table {
+  font-size: 16px;
+}
+
+table tr td:nth-child(3) {
+  color: #1f4e79;
+  font-weight: 600;
+}
+thead {
+  display: none;
+}
+table td {
+  padding: 15px 10px !important;
+}
+
+table td:nth-child(4) {
+  text-align: center;
+}
+.badge-primary {
+  background-color: #1f4e79;
+}
+
+.nav-item.active {
+  background-color: #1f4e79;
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a {
+  border-radius: 4px 4px 0 0;
+}
+
+.offset-lg-3 {
+  margin-left: 25%;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+.input-group input {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.input-group button {
+  height: 50px;
+  border-radius: 0 8px 8px 0;
+}
+.input-group button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  cursor: default;
+  background-color: #1f4e79;
+  color: #fff;
+  border: 0;
+  border-bottom-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .offset-lg-3 {
+    margin-left: initial;
+  }
+  .step-area {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .step-box {
+    width: 100%;
+  }
+  .step-img {
+    height: 225px;
+  }
+  .step-icon {
+    transform: rotate(90deg);
+  }
+}
