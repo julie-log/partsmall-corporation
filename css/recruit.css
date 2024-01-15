@@ -94,10 +94,21 @@ table tr td:nth-child(3) {
 thead {
   display: none;
 }
+table tr {
+  cursor: pointer;
+}
+table tr:hover {
+  background-color: #f2f2f2;
+}
 table td {
   padding: 15px 10px !important;
 }
-
+table td span {
+  display: block;
+  color: #333;
+  margin-top: 5px;
+  font-size: 13px;
+}
 table td:nth-child(4) {
   text-align: center;
 }
@@ -143,7 +154,46 @@ table td:nth-child(4) {
   border: 0;
   border-bottom-color: transparent;
 }
+.recruit-page .badge {
+  padding: 10px 20px;
+  border-radius: 0px;
+}
+.recruit-detail {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+.header-detail {
+  display: flex;
+  gap: 10px;
+}
+.header-detail div:nth-child(5) {
+  color: #1f4e79;
+  font-weight: 600;
+}
+.recruit-detail .header {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.recruit-detail .tail {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.recruit-detail .tail button {
+  outline: none !important;
+  box-shadow: none !important;
+}
 @media (max-width: 768px) {
   .offset-lg-3 {
     margin-left: initial;
