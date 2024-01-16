@@ -26,3 +26,47 @@ html {
 .groups-list > div {
   margin-top: 150px;
 }
+.group-box{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.group-box p{
+  color: #333;
+}
+.group-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.group-logo{
+  width: 100px;
+}
+
+.group-icon{
+  width: 16px;
+}
+.group-text a{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.group-text a img{
+  margin-right: 10px;
+}
+
+.sub-img{
+  width: 200px;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .group-box {
+    display: initial;
+  }
+}

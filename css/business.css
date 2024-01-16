@@ -1,101 +1,91 @@
 html {
   scroll-behavior: smooth;
 }
-.business-list {
-  margin-top: 50px;
+.groups-btns {
+  margin: 100px 0 0;
 }
-.business-box{
-  margin-bottom: 150px;
-}
-.business-box > div.box-img{
-  height: 20vw;
-  border-radius: 8px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.business-box:nth-child(1) .box-img{
-  background-image: url("../img/business/business_import.jpg");
-}
-
-.business-box:nth-child(2) .box-img{
-  background-image: url("../img/business/business_export.jpg");
-}
-
-.business-box:nth-child(3) .box-img{
-  background-image: url("../img/business/business_platform.jpg");
-}
-
-.business-box:nth-child(4) .box-img{
-  background-image: url("../img/business/business_electric.jpg");
-}
-.business-box > div.box-text{
-  width: 100%;
-  margin: 50px auto;
+.groups-btn {
   display: flex;
-  justify-content: center;
-}
-.business-box > div.box-text img{
-  width: 50%;
-}
-.business-box:last-child {
-  margin-bottom: 50px;
-}
-
-.swiper {
-  width: 100%;
-  height: 800px;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
   align-items: center;
   border: 1px solid #ddd;
-  position: relative;
+  border-radius: 10px;
 }
-.swiper-slide > div {
-  position: absolute;
-  left: 20px;
-  text-align: left;
-  bottom: 20px;
-}
-.swiper-slide > div h1,
-.swiper-slide > div p {
-  color: #fff;
-}
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.groups-btn.active,
+.groups-btn:hover {
+  border: 1px solid #17bed2;
 }
 
-.swiper-slide:nth-child(1) {
-  background-image: url("../img/business/business_import.jpg");
-  background-size: cover;
+.groups-btn img {
+  border-radius: 10px;
 }
-.swiper-slide:nth-child(2) {
-  background-image: url("../img/business/business_export.jpg");
-  background-size: cover;
+
+.groups-list {
+  margin-bottom: 150px;
 }
-.swiper-slide:nth-child(3) {
-  background-image: url("../img/business/business_electric.jpg");
-  background-size: cover;
+
+.groups-list > div {
+  margin-top: 150px;
 }
-.swiper-slide:nth-child(4) {
-  background-image: url("../img/business/business_platform.jpg");
-  background-size: cover;
+.group-box{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.group-box p, .group-box span{
+  color: #333;
+}
+.group-box span{
+  font-weight: 600;
+}
+.group-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.group-logo{
+  width: 100px;
+}
+
+.group-icon{
+  width: 16px;
+}
+.group-text a{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.group-title{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.group-detail{
+  display: flex;
+  gap: 10px;
+}
+.group-title img{
+  width: 50px;
+  opacity: .3;
+  
+}
+.group-title h3{
+  font-size: 18px;
+}
+.group-text a img{
+  margin-right: 10px;
+}
+
+.sub-img{
+  width: 200px;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 20px 0;
 }
 
 @media (max-width: 768px) {
-  .business-box > div.box-img {
-    height: 50vw;
-  }
-  .business-box > div.box-text img{
-    width: 100%;
+  .group-box {
+    display: initial;
   }
 }

@@ -2,6 +2,9 @@
 * {
   word-break: keep-all;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* common header */
 .header .logo-img {
   width: auto;
@@ -94,6 +97,15 @@
   color: #515769;
 }
 
+.footer-content{
+  padding: 20px 0;
+}
+
+.footer-content .row{
+  display: flex;
+    align-items: center;
+}
+
 .footer p {
   color: #515769;
   font-size: 13px;
@@ -129,5 +141,11 @@
   }
   .carousel-title {
     font-size: 30px;
+  }
+  .footer-content{
+    padding: 20px 20px;
+  }
+  .footer-content .row {
+    display: initial;
   }
 }
