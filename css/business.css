@@ -82,15 +82,15 @@ h1 {
   font-size: 28px;
   margin: 20px 0;
 }
-.small-box{
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
+
+.small-box:last-child{
+  margin-top: 50px !important;
 }
-.small-box img{
-  border: 1px solid #ddd;
-  border-radius: 8px;
+
+.small-box .group-img {
+  text-align: right;
 }
+
 .pb-50{
   padding-bottom: 50px;
 }
