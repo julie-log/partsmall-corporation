@@ -1,10 +1,7 @@
-.tag-box {
-  background-color: #fafafa;
-  border-radius: 8px;
-  width: 100%;
-  padding: 10px;
+.work {
+  margin-bottom: 30px;
 }
-.tag-list {
-  display: flex;
-  gap: 10px;
+.work p {
+  margin-top: 10px;
+  color: #333;
 }

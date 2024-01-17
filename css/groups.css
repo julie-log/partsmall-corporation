@@ -26,43 +26,50 @@ html {
 .groups-list > div {
   margin-top: 150px;
 }
-.group-box{
+.group-box {
   display: flex;
   align-items: center;
   gap: 60px;
 }
-.group-box p{
+.group-box p {
   color: #333;
+  line-height: 1.6;
 }
-.group-text{
+.group-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.group-logo{
-  width: 100px;
+.group-logo {
+  width: 200px;
 }
 
-.group-icon{
+.group-icon {
   width: 16px;
 }
-.group-text a{
+.group-text a {
   margin-bottom: 10px;
   cursor: pointer;
 }
 
-.group-text a img{
+.group-text a img {
   margin-right: 10px;
 }
 
-.sub-img{
+.sub-img {
   width: 200px;
   margin: 20px 0;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 55px;
   margin: 20px 0;
+}
+
+.group-box p {
+  margin-bottom: 35px;
+  color: #333;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
