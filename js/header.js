@@ -20,24 +20,5 @@ fetch("header.html")
           $(".side-menu").removeClass("active");
         }
       );
-      var headerHeight = $(".navbar").height(); // 헤더의 클래스 또는 ID에 맞게 수정
-
-      $('a[href^="#"]').on("click", function (e) {
-        e.preventDefault();
-        console.log(headerHeight);
-        var target = this.hash;
-        var $target = $(target);
-
-        // 헤더의 높이를 고려하여 부드럽게 이동
-        $("html, body")
-          .stop()
-          .animate(
-            {
-              scrollTop: $target.offset().top - headerHeight,
-            },
-            100,
-            "swing"
-          );
-      });
     });
   });
