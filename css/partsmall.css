@@ -112,7 +112,7 @@ html {
   font-size: 13px;
 }
 .footer .text-right p {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .footer .footer-list-item {
@@ -135,10 +135,40 @@ html {
   gap: 10px;
   margin-top: 20px;
 }
+
+@media (max-width: 1200px) {
+  .header .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar {
+    border-radius: 4px;
+    height: auto;
+  }
+  .header .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .header .navbar-toggle {
+    display: block;
+  }
+  .header .menu-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header .nav > ul.depth1 > li {
+    width: 100% !important;
+  }
+  .header .nav-item-child {
+    padding: 5px;
+  }
+}
+
 @media (max-width: 768px) {
   .header .menu-container {
     justify-content: center;
     flex-direction: column;
+  }
+  .header .nav-item-child {
+    padding: 10px;
   }
   .carousel-title {
     font-size: 30px;

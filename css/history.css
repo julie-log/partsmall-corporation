@@ -1,8 +1,18 @@
-.history-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-weight: bold;
+.history-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+.sub-img {
+  width: 300px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.timeline-block-left .sub-img {
+}
+
+.timeline-block-right .sub-img {
 }
