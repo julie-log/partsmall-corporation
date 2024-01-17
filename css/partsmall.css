@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 /* common header */
+.header .logo {
+  width: 150px;
+  height: auto;
+}
 .header .logo-img {
   width: auto;
 }

@@ -89,9 +89,10 @@ table {
   font-size: 18px;
 }
 
-table tr td:nth-child(3) {
+table tr td:nth-child(3) p {
   color: #1f4e79;
   font-weight: 600;
+  padding-top: 15px;
 }
 thead {
   display: none;
