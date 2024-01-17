@@ -2,3 +2,11 @@
   max-width: 1100px;
   margin: 0 auto;
 }
+
+.new-area table {
+  font-size: 18px;
+}
+
+.new-area table tr td {
+  padding: 15px 10px !important;
+}

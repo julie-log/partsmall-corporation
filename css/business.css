@@ -50,9 +50,10 @@ html {
   justify-content: center;
 }
 .group-logo {
-  width: 50px;
+  width: 65px;
   height: 100%;
   opacity: 0.3;
+  margin-left: 10px;
 }
 
 .group-icon {
@@ -69,7 +70,13 @@ html {
 }
 .group-detail {
   display: flex;
-  gap: 25px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.group-detail p,
+.group-detail span {
+  font-size: 15px;
 }
 
 .group-text h3 {

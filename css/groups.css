@@ -50,6 +50,7 @@ html {
 .group-text a {
   margin-bottom: 10px;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .group-text a img {
