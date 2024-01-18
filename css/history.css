@@ -23,3 +23,18 @@
   cursor: pointer;
   display: flex;
 }
+@media (max-width: 768px) {
+  .timeline-container {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .timeline-content h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .timeline-content p {
+    font-size: 16px;
+  }
+}

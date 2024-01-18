@@ -196,11 +196,9 @@ html {
   }
 
   .carousel-title {
-    font-size: 30px;
+    font-size: 35px;
   }
-  .footer-content {
-    padding: 20px 20px;
-  }
+
   .footer-content .row {
     display: initial;
   }
@@ -216,5 +214,17 @@ html {
   }
   .footer .text-right p {
     text-align: left;
+  }
+  .parallax-content {
+    padding-top: 140px;
+    padding-bottom: 50px;
+  }
+  .content-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sub-content {
+  }
+  .header .sub-content {
   }
 }

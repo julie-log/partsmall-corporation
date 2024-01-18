@@ -125,6 +125,7 @@
   }
   .header .navbar-nav {
     margin: 0;
+    padding: 0px 10px;
   }
   .header .nav > ul.side-menu select {
     margin: 0;
@@ -141,12 +142,19 @@
   .header .nav > ul.depth1 > li {
     border-bottom: 1px solid #ddd;
     margin: 0px 0 15px;
-    padding: 0 0 15px;
+    padding: 0 0 10px;
   }
 
   .header .navbar-collapse.collapse.in {
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: 100vh; /* Set maximum height to 100% of the viewport height */
     transition: max-height 0.3s ease; /* Add a smooth transition effect */
+  }
+  .header ul.depth1 > li > a:first-child {
+    color: #17bed2;
+  }
+  .header .nav-item-hover:after {
+    width: 0;
+    height: 0;
   }
 }

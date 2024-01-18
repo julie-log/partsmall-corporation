@@ -10,3 +10,12 @@
 .new-area table tr td {
   padding: 15px 10px !important;
 }
+@media (max-width: 768px) {
+  .new-area table tr td {
+    padding: 10px 5px !important;
+  }
+
+  .new-area table {
+    font-size: 15px;
+  }
+}

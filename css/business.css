@@ -114,4 +114,22 @@ h1 {
   .group-box {
     display: initial;
   }
+  h1 {
+    font-size: 35px;
+  }
+  .group-box p {
+    font-size: 15px;
+  }
+  .group-logo {
+    width: 50px;
+  }
+  .group-text h3 {
+    font-size: 18px;
+  }
+  .small-box .group-img {
+    text-align: left;
+  }
+  .groups-list {
+    margin-top: 50px;
+  }
 }

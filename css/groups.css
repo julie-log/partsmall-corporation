@@ -77,4 +77,17 @@ h1 {
   .group-box {
     display: initial;
   }
+  h1 {
+    font-size: 35px;
+  }
+  .group-box p {
+    font-size: 15px;
+  }
+  .group-logo {
+    width: 150px;
+    margin-top: 20px;
+  }
+  .groups-list {
+    margin-top: 50px;
+  }
 }
