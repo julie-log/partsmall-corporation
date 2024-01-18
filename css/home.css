@@ -294,4 +294,8 @@ a:nth-child(2) {
   .full-screen {
     height: 669px !important;
   }
+  .sm-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }

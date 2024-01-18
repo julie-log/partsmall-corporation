@@ -143,4 +143,10 @@
     margin: 0px 0 15px;
     padding: 0 0 15px;
   }
+
+  .header .navbar-collapse.collapse.in {
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100vh; /* Set maximum height to 100% of the viewport height */
+    transition: max-height 0.3s ease; /* Add a smooth transition effect */
+  }
 }
