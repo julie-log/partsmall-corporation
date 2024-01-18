@@ -196,7 +196,7 @@ a:nth-child(2) {
   background-position: center;
   background-repeat: no-repeat;
 }
-.esg-box img{
+.esg-box img {
   box-sizing: border-box;
   border-radius: 8px;
   overflow: hidden;
@@ -235,10 +235,10 @@ a:nth-child(2) {
   width: 100%;
   border-radius: 8px;
 }
-.youtube .work{
+.youtube .work {
   margin-bottom: 20px;
 }
-.youtube .work p{
+.youtube .work p {
   margin-top: 10px;
 }
 @media (max-width: 768px) {
@@ -290,5 +290,8 @@ a:nth-child(2) {
   }
   .esg-box p:hover .arrow {
     display: none;
+  }
+  .full-screen {
+    height: 669px !important;
   }
 }

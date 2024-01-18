@@ -139,7 +139,12 @@ html {
   gap: 10px;
   margin-top: 20px;
 }
-
+.d-lg-none {
+  display: none !important;
+}
+.d-sm-none {
+  display: block !important;
+}
 @media (max-width: 1200px) {
   .header .navbar-collapse.collapse {
     display: none !important;
@@ -164,6 +169,24 @@ html {
   .header .nav-item-child {
     padding: 5px;
   }
+  .header .logo {
+    width: 100px;
+  }
+  .header .logo-wrap {
+    display: inline-block;
+    padding: 0px 0;
+  }
+  .header .navbar-toggle {
+    margin: 20px 0;
+  }
+  .side-menu {
+    margin: 0;
+  }
+  .header .nav > ul.side-menu > li {
+    border-bottom: 0 !important;
+    float: initial !important;
+    text-align: left !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -172,7 +195,6 @@ html {
     flex-direction: column;
   }
   .header .nav-item-child {
-    padding: 10px;
   }
   .carousel-title {
     font-size: 30px;
@@ -182,5 +204,18 @@ html {
   }
   .footer-content .row {
     display: initial;
+  }
+  .d-lg-none {
+    display: block !important;
+  }
+  .d-sm-none {
+    display: none !important;
+  }
+  .footer .text-right {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .footer .text-right p {
+    text-align: left;
   }
 }
