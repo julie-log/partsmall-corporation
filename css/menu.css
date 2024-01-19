@@ -149,9 +149,11 @@
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: 100vh; /* Set maximum height to 100% of the viewport height */
     transition: max-height 0.3s ease; /* Add a smooth transition effect */
+    border-bottom: 1px solid #ddd;
   }
   .header ul.depth1 > li > a:first-child {
     color: #17bed2;
+    margin-bottom: 5px;
   }
   .header .nav-item-hover:after {
     width: 0;
