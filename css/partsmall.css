@@ -2,7 +2,14 @@
 * {
   word-break: keep-all;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* common header */
+.header .logo {
+  width: 150px;
+  height: auto;
+}
 .header .logo-img {
   width: auto;
 }
@@ -79,6 +86,7 @@
 }
 .footer-info-list {
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .footer-info-list li {
   font-size: 13px;
@@ -94,12 +102,21 @@
   color: #515769;
 }
 
+.footer-content {
+  padding: 30px 0;
+}
+
+.footer-content .row {
+  display: flex;
+  align-items: center;
+}
+
 .footer p {
   color: #515769;
   font-size: 13px;
 }
 .footer .text-right p {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .footer .footer-list-item {
@@ -122,12 +139,92 @@
   gap: 10px;
   margin-top: 20px;
 }
+.d-lg-none {
+  display: none !important;
+}
+.d-sm-none {
+  display: block !important;
+}
+@media (max-width: 1200px) {
+  .header .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar {
+    border-radius: 4px;
+    height: auto;
+  }
+  .header .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .header .navbar-toggle {
+    display: block;
+  }
+  .header .menu-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header .nav > ul.depth1 > li {
+    width: 100% !important;
+  }
+  .header .nav-item-child {
+    padding: 5px;
+  }
+  .header .logo {
+    width: 100px;
+  }
+  .header .logo-wrap {
+    display: inline-block;
+    padding: 0px 0;
+  }
+  .header .navbar-toggle {
+    margin: 20px 0;
+  }
+  .side-menu {
+    margin: 0;
+  }
+  .header .nav > ul.side-menu > li {
+    border-bottom: 0 !important;
+    float: initial !important;
+    text-align: left !important;
+  }
+}
+
 @media (max-width: 768px) {
   .header .menu-container {
     justify-content: center;
     flex-direction: column;
   }
+
   .carousel-title {
-    font-size: 30px;
+    font-size: 35px;
+  }
+
+  .footer-content .row {
+    display: initial;
+  }
+  .d-lg-none {
+    display: block !important;
+  }
+  .d-sm-none {
+    display: none !important;
+  }
+  .footer .text-right {
+    text-align: left;
+    margin-top: 10px;
+  }
+  .footer .text-right p {
+    text-align: left;
+  }
+  .parallax-content {
+    padding-top: 140px;
+    padding-bottom: 50px;
+  }
+  .content-lg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sub-content {
+  }
+  .header .sub-content {
   }
 }

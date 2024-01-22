@@ -59,3 +59,19 @@
   color: #333;
   margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+  .box-img {
+    height: 350px;
+    width: 100%;
+  }
+
+  .work p {
+    font-size: 20px;
+  }
+  .box-img p {
+    font-size: 25px;
+  }
+  .list li {
+    font-size: 16px;
+  }
+}

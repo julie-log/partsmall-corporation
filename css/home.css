@@ -3,7 +3,7 @@
   /* color: var(--main-theme-color); */
   color: #fff;
   font-size: 28px;
-  
+
   line-height: 1.5;
 }
 
@@ -183,10 +183,10 @@ a:nth-child(2) {
   left: 65%;
 }
 
-.esg-box p:hover .arrow {
+/* .esg-box p:hover .arrow {
   box-shadow: 2px -2px 0 2px #17bed2 inset;
   -webkit-box-shadow: 4px -4px #17bed2 inset;
-}
+} */
 .main-esg {
   background-size: cover;
   border-radius: 8px;
@@ -196,39 +196,51 @@ a:nth-child(2) {
   background-position: center;
   background-repeat: no-repeat;
 }
-.esg-box {
-  position: relative;
-  display: flex;
-  cursor: pointer;
-  align-items: center;
+.esg-box img {
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
 }
-.esg-box p {
+/* .esg-box p {
   position: absolute;
   bottom: 20px;
   right: 5%;
   font-size: 32px;
   color: #fff;
-}
+} */
 .work {
   overflow: hidden;
-    border-radius: 8px ;
+  border-radius: 8px;
 }
 .work img {
   border-radius: 8px;
   transition: 0.2s;
-  
 }
-.work:hover img{
-  transform:scale(1.1); /*  default */
-  -webkit-transform:scale(1.1); /*  크롬 */
-  -moz-transform:scale(1.1);/* FireFox */
-  -o-transform:scale(1.1); /* Opera */
-} 
+.work:hover img {
+  transform: scale(1.1); /*  default */
+  -webkit-transform: scale(1.1); /*  크롬 */
+  -moz-transform: scale(1.1); /* FireFox */
+  -o-transform: scale(1.1); /* Opera */
+}
 .work:hover .work-overlay:before {
   border-radius: 8px;
   background-color: initial;
 }
-
+.global-box {
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.global-box img {
+  width: 100%;
+  border-radius: 8px;
+}
+.youtube .work {
+  margin-bottom: 20px;
+}
+.youtube .work p {
+  margin-top: 10px;
+}
 @media (max-width: 768px) {
   #video_area {
     height: 667px;
@@ -255,26 +267,35 @@ a:nth-child(2) {
     right: 7vw;
     top: -6px;
   }
-  .work {margin-bottom: 25px;}
-  .work .work-content{
+  .work {
+    margin-bottom: 25px;
+  }
+  .work .work-content {
     opacity: 1;
     padding: 35px 10px;
     font-size: 12px;
   }
-  .work .work-content h3{
+  .work .work-content h3 {
     font-size: 16px;
   }
-  .work .work-content p{
-  font-size: 13px;
-}
-.main-esg{
-  height: 60vw;
-}
-.esg-box p{
-  right: 30px;
-  font-size: 14px;
-}
-.esg-box p:hover .arrow {
-display: none
-}
+  .work .work-content p {
+    font-size: 13px;
+  }
+  .main-esg {
+    height: 60vw;
+  }
+  .esg-box p {
+    right: 30px;
+    font-size: 14px;
+  }
+  .esg-box p:hover .arrow {
+    display: none;
+  }
+  .full-screen {
+    height: 669px !important;
+  }
+  .sm-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }

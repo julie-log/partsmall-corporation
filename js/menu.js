@@ -14,7 +14,3 @@ $(function () {
     }
   );
 });
-
-fullMenu.addEventListener("click", function () {
-  $(".depth2").toggleClass("active");
-});

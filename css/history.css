@@ -1,8 +1,40 @@
-.history-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-weight: bold;
+.history-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+.sub-img {
+  visibility: hidden;
+  width: 300px;
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: all 0.2s linear;
+  display: none;
+}
+.showing {
+  visibility: visible;
+  display: block;
+}
+
+.photo-btn {
+  cursor: pointer;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .timeline-container {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+  }
+  .timeline-content h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  .timeline-content p {
+    font-size: 16px;
+  }
 }
